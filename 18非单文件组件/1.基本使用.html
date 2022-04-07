@@ -98,8 +98,6 @@
 			}
 		})
 
-		//第二步：全局注册组件
-		Vue.component('hello',hello)
 		//第二步：局部注册组件
 		new Vue({
 			el:'#root',
@@ -113,6 +111,8 @@
 			}
 		})
 
+		//第二步：全局注册组件
+		Vue.component('hello', hello)
 		new Vue({
 			el:'#root2',
 		})
